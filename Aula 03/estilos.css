@@ -1,0 +1,19 @@
+  
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url(imagens/Lighthouse.jpg);
+      background-size: 100%; 
+  }
+  .laranja{
+        color:#f60;
+    }
+    p{
+        color:#333;
+        font-size: 16px;
+    }
+    #citacao{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        font-style:  italic;
+        margin: 40px;
+    }
