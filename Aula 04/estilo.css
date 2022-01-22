@@ -1,0 +1,66 @@
+/* RESET DE CONFIGURAÇÔES DO NAVEGADOR*/
+*{
+margin: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* FIM DOS RESETS */
+.clear{
+    clear: both;
+}
+
+/* FORMATAÇÕES PARA O CABEÇALHO */
+header{
+    margin-bottom: 15px;
+}
+#logo {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 5em; /* 5em = 16px * 5 = 80px */
+    text-shadow: 3px 3px 6px rgba(0,0, 0, 0.4);
+}
+#logo h1 {
+    color: aqua;
+    font-size: 1em; /* 1em = 80px * 1 = 80px */
+}
+#logo span{
+    color: coral;
+    display: block;
+    font-size: 0.45em; /* 0.45em = 80px * 0.45 = 36px */
+    font-weight: 100;
+    margin-top: -14px;
+}
+header nav{
+    background-color: #faaaaa;
+    height: 40px;
+    text-align: left;
+}
+
+#menu_principal > a{
+    color: #0e0d0d;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#menu_principal a:hover{
+    color: aqua;
+}
+/* FORMATAÇÕES DO CONTEÚDO */
+main{
+    width: 75%;
+    height: 400px;
+    background-color: azure;
+    float: left;
+}
+/* FORMATAÇÃO PARA A BARRA LATERAL */
+aside{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(20, 220, 97);
+    float: right;    
+}
+/* FORMATAÇÃO DO FOOTER */
+footer{
+    height: 100px;
+    background-color: black;
+}
