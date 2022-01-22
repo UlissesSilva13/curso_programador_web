@@ -1,0 +1,144 @@
+#{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font-zero{
+    font-size: 0;
+}
+.clearfix::after, .clearfix::before{display:table; content: " ";}
+.clearfix::after{clear: both;}
+body{
+    background: url("img/fundo.png") repeat-x;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+    margin: 15px;
+}
+#busca{
+    float: right;
+    margin: 15px;
+}
+#busca input[type="submit"]{
+    background-color: darkgreen;
+    color: #fcf9f9;
+    cursor: pointer;
+    border-color: darkgreen
+}
+
+#menu{
+    float: left;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    text-align: right;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#menu a{
+    text-decoration: none;
+    color: darkgreen;
+    padding: 5px 12px;
+}
+#menu a:hover{
+    background-color: darkgreen;
+    color: #ffffff;
+}
+#banner{
+    margin-bottom: 10px;
+}
+#sobre_home, #recentes_home, #comentarios_home{
+    width: 32%;
+    float: left;
+}
+#recentes_home{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.titulo2{
+    color: darkgreen;
+}
+.btn-verde {
+background-color: darkgreen;
+color: #ffffff;
+text-decoration: none;
+padding: 5px 12px;
+font-weight: 600;
+float: right;
+}
+.btn-verde:hover{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.artigos_recentes{
+    margin-bottom: 15px;
+}
+.artigos_recentes img{
+float: left;
+margin-right: 5px;
+}
+.artigos_recentes .titulo3{
+    font-size: 1em;
+    color: darkgreen;
+    margin: 0;
+}
+.artigos_recentes p{
+    margin: 0;
+    font-size: 85%;
+}
+.comentario { 
+    margin-bottom: 5px;
+}
+.comentario .titulo3{
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+.comentario img{
+    /*
+    border-width: 3px; border-color: darkgreen;
+    border-style: solid; border: 3px solid darkgreen;*/
+    /* border-radius: top-left top-rigth bottom-rigth bottom-left;*/
+    border-radius: 43px;
+    float: left;
+    margin-right: 5px;
+}
+.comentario p{
+    font-style: italic;
+    margin-top: 5px;
+}
+footer{
+    background-color: darkgreen;
+    margin-top: 35px;
+    padding: 25px 15px;
+}
+#logo_footer{
+    width: 20%;
+    float: left;
+}
+#txt_footer{
+    width: 60%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+#txt_footer small{
+    line-height: 56px;
+}
+#redes_footer{
+    width: 20%;
+    float: left;
+    color: #ffffff;
+}
+#redes_foter h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
